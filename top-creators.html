@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Home</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230130225800">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll class="header">
+			<div class="header__container">
+				<div class="header__logo"><a href="home.html"><img src="img/logo.svg" alt="Logo"></a></div>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="marketplace.html" class="menu__link">Marketplace</a></li>
+							<li class="menu__item"><a href="top-creators.html" class="menu__link">Rankings</a></li>
+							<li class="menu__item"><a href="wallet.html" class="menu__link">Connect a wallet</a></li>
+						</ul>
+						<a href="signup.html" class="header__sign-up common-button">
+							<svg class="header__icon-user">
+								<use xlink:href="img/icons/icons.svg#svg-user"></use>
+							</svg>
+							Sign Up</a>
+					</nav>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__upper-block upper-block">
+				<div class="upper-block__container">
+					<h1 class="upper-block__title">Top Creators</h1>
+					<h2 class="upper-block__subtitle">Check out top ranking NFT artists on the NFT Marketplace.</h2>
+				</div>
+			</section>
+			<section class="page__top-list top-list">
+				<div class="top-list__container">
+					<nav data-filter-navigation="top" class="top-list__navigation gallery-control">
+						<button data-filter-button="today" type="button" class="top-list__button control-button today button-active">Today</button>
+						<button data-filter-button="week" type="button" class="top-list__button control-button week">This Week</button>
+						<button data-filter-button="month" type="button" class="top-list__button control-button month">This Month</button>
+						<button data-filter-button="all" type="button" class="top-list__button control-button all-time">All Time</button>
+					</nav>
+					<div class="top-list__labels labels">
+						<div class="labels__column labels__column_artist">
+							<span class="labels__id labels__text labels__text_artist">#</span>
+							<span class="labels__text labels__text_artist">Artist</span>
+						</div>
+						<div class="labels__column labels__column_stats">
+							<p class="labels__text labels__text_change">Change</p>
+							<p class="labels__text labels__text_nft">NFTs Sold</p>
+							<p class="labels__text labels__text_volume">Volume</p>
+						</div>
+					</div>
+					<div data-masonry data-filter-body="top" class="top-list__body">
+						<a href="#" data-filter-card="today" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">1</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top01.webp" type="image/webp"><img src="img/top-template/top01.png" alt=""></picture></div>
+								<p class="item-top-list__name">Jaydon Ekstrom Bothman</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+						<a href="#" data-filter-card="today" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">2</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top02.webp" type="image/webp"><img src="img/top-template/top02.png" alt=""></picture></div>
+								<p class="item-top-list__name">Ruben Carder</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+						<a href="#" data-filter-card="today" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">3</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top03.webp" type="image/webp"><img src="img/top-template/top03.png" alt=""></picture></div>
+								<p class="item-top-list__name">Alfredo Septimus</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+						<a href="#" data-filter-card="today" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">4</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top04.webp" type="image/webp"><img src="img/top-template/top04.png" alt=""></picture></div>
+								<p class="item-top-list__name">Davis Franci</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+						<a href="#" data-filter-card="month" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">5</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top05.webp" type="image/webp"><img src="img/top-template/top05.png" alt=""></picture></div>
+								<p class="item-top-list__name">Livia Rosser</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+						<a href="#" data-filter-card="month" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">6</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top06.webp" type="image/webp"><img src="img/top-template/top06.png" alt=""></picture></div>
+								<p class="item-top-list__name">Kianna Donin</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+						<a href="#" data-filter-card="month" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">7</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top07.webp" type="image/webp"><img src="img/top-template/top07.png" alt=""></picture></div>
+								<p class="item-top-list__name">Phillip Lipshutz</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+						<a href="#" data-filter-card="month" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">8</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top08.webp" type="image/webp"><img src="img/top-template/top08.png" alt=""></picture></div>
+								<p class="item-top-list__name">Maria Rosser</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+						<a href="#" data-filter-card="month" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">9</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top09.webp" type="image/webp"><img src="img/top-template/top09.png" alt=""></picture></div>
+								<p class="item-top-list__name">Kianna Stanton</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+						<a href="#" data-filter-card="month" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">10</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top10.webp" type="image/webp"><img src="img/top-template/top10.png" alt=""></picture></div>
+								<p class="item-top-list__name">Angel Lubin</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+						<a href="#" data-filter-card="today" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">11</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top11.webp" type="image/webp"><img src="img/top-template/top11.png" alt=""></picture></div>
+								<p class="item-top-list__name">Allison Torff</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+						<a href="#" data-filter-card="week" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">12</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top12.webp" type="image/webp"><img src="img/top-template/top12.png" alt=""></picture></div>
+								<p class="item-top-list__name">Davis Workman</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+						<a href="#" data-filter-card="week" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">13</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top13.webp" type="image/webp"><img src="img/top-template/top13.png" alt=""></picture></div>
+								<p class="item-top-list__name">Lindsey Lipshutz</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+						<a href="#" data-filter-card="week" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">14</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top14.webp" type="image/webp"><img src="img/top-template/top14.png" alt=""></picture></div>
+								<p class="item-top-list__name">Randy Carder</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+						<a href="#" data-filter-card="week" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">15</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top15.webp" type="image/webp"><img src="img/top-template/top15.png" alt=""></picture></div>
+								<p class="item-top-list__name">Lydia Culhane</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+						<a href="#" data-filter-card="today" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">16</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top16.webp" type="image/webp"><img src="img/top-template/top16.png" alt=""></picture></div>
+								<p class="item-top-list__name">Rayna Bator</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+						<a href="#" data-filter-card="week" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">17</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top17.webp" type="image/webp"><img src="img/top-template/top17.png" alt=""></picture></div>
+								<p class="item-top-list__name">Jocelyn Westervelt</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+						<a href="#" data-filter-card="week" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">18</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top01.webp" type="image/webp"><img src="img/top-template/top01.png" alt=""></picture></div>
+								<p class="item-top-list__name">Marilyn Torff</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+						<a href="#" data-filter-card="today" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">19</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top10.webp" type="image/webp"><img src="img/top-template/top10.png" alt=""></picture></div>
+								<p class="item-top-list__name">Skylar Levin</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+						<a href="#" data-filter-card="week" class="top-list__item item-top-list">
+							<div class="item-top-list__column item-top-list__column_artist">
+								<span class="item-top-list__id">20</span>
+								<div class="item-top-list__img"><picture><source srcset="img/top-template/top03.webp" type="image/webp"><img src="img/top-template/top03.png" alt=""></picture></div>
+								<p class="item-top-list__name">Terry Dorwart</p>
+							</div>
+							<div class="item-top-list__column item-top-list__column_stats">
+								<p class="item-top-list__text item-top-list__text_percent">+1.41%</p>
+								<p class="item-top-list__text item-top-list__text_count">602</p>
+								<p class="item-top-list__text item-top-list__text_price">12.4 ETH</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<section class="footer__contacts contacts">
+				<div class="contacts__container">
+					<div class="contacts__column contacts__column_main">
+						<div class="contacts__logo"><a href="home.html"><img src="img/logo.svg" alt="Logo"></a></div>
+						<p class="contacts__text">NFT marketplace UI created with Anima for Figma.</p>
+						<p class="contacts__text">Join our community</p>
+						<ul class="contacts__media-list">
+							<li class="contacts__list-item">
+								<a href="#">
+									<svg class="contacts__icon-media">
+										<use xlink:href="img/icons/icons.svg#svg-discord"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="contacts__list-item">
+								<a href="#">
+									<svg class="contacts__icon-media">
+										<use xlink:href="img/icons/icons.svg#svg-youtube"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="contacts__list-item">
+								<a href="#">
+									<svg class="contacts__icon-media">
+										<use xlink:href="img/icons/icons.svg#svg-twitter"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="contacts__list-item">
+								<a href="#">
+									<svg class="contacts__icon-media">
+										<use xlink:href="img/icons/icons.svg#svg-instagram"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="contacts__column contacts__column_links">
+						<h3 class="contacts__title">Explore</h3>
+						<p class="contacts__link contacts__text"><a href="marketplace.html">Marketplace</a></p>
+						<p class="contacts__link contacts__text"><a href="rankings.html">Rankings</a></p>
+						<p class="contacts__link contacts__text"><a href="wallet.html">Connect a wallet</a></p>
+					</div>
+					<div class="contacts__column contacts__column_form">
+						<h3 class="contacts__title">Join our weekly digest</h3>
+						<p class="contacts__text">Get exclusive promotions & updates straight to your inbox.</p>
+						<form method="post" class="contacts__form">
+							<input required placeholder="Enter your email here" autocomplete="off" name="email" value="" type="email" class="contacts__input">
+							<button type="submit" class="contacts__button common-button">Subscribe</button>
+						</form>
+					</div>
+				</div>
+			</section>
+			<div class="footer__container">
+				<p class="footer__text">Ⓒ NFT Market. Use this template freely.</p>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20230130225800"></script>
+</body>
+
+</html>
