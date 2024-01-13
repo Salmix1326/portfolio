@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Home</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20240113194809" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/x-icon" href="img/logo-icon.png" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-lp class="header">
+			<div class="header__container">
+				<a href="index.html" class="header__logo">
+					<div class="header__picture">
+						<img src="img/header/logo.png" alt="Logo PixelEra" />
+					</div>
+					<h1>PixelEra</h1>
+				</a>
+				<div class="header__main-items">
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu">
+							<div class="icon-menu__decor">
+								<span class="icon-menu__item1"></span>
+								<span class="icon-menu__item2"></span>
+								<span class="icon-menu__item3"></span>
+							</div>
+							<p class="icon-menu__title">Catalog</p>
+						</button>
+						<nav class="menu__body"></nav>
+					</div>
+
+					<form action="" method="get" data-da=".menu__body,767,0" class="header__search search-header">
+						<input required placeholder="search . . ." class="search-header__input" type="search" />
+						<a href="search-result.html" type="submit" class="search-header__button">
+							<svg class="search-header__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 10.5C2.5 6.08172 6.08172 2.5 10.5 2.5C14.9183 2.5 18.5 6.08172 18.5 10.5C18.5 14.9183 14.9183 18.5 10.5 18.5C6.08172 18.5 2.5 14.9183 2.5 10.5ZM10.5 3.5C6.63401 3.5 3.5 6.63401 3.5 10.5C3.5 14.366 6.63401 17.5 10.5 17.5C14.366 17.5 17.5 14.366 17.5 10.5C17.5 6.63401 14.366 3.5 10.5 3.5Z" />
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M15.4463 15.4464C15.6415 15.2512 15.9581 15.2512 16.1534 15.4464L21.3534 20.6464C21.5486 20.8417 21.5486 21.1583 21.3534 21.3535C21.1581 21.5488 20.8415 21.5488 20.6463 21.3535L15.4463 16.1535C15.251 15.9583 15.251 15.6417 15.4463 15.4464Z" />
+							</svg>
+						</a>
+					</form>
+
+					<div class="header__controls controls-header">
+						<a href="favourites.html" class="controls-header__favorites favorites">
+							<svg class="favorites__icon" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M13.2046 4.25644C14.3299 3.13067 15.8564 2.49817 17.4482 2.49817C19.0399 2.49817 20.5664 3.13063 21.6916 4.25636C22.8174 5.38164 23.45 6.90829 23.45 8.49999C23.45 10.0917 22.8175 11.6183 21.6917 12.7435C21.6917 12.7436 21.6917 12.7435 21.6917 12.7435L12.8517 21.5835C12.6565 21.7788 12.3399 21.7788 12.1446 21.5835L3.30461 12.7435C0.960963 10.3999 0.960963 6.60009 3.30461 4.25644C5.64826 1.91279 9.44807 1.91279 11.7917 4.25644L12.4982 4.96289L13.2046 4.25644C13.2046 4.25641 13.2046 4.25647 13.2046 4.25644ZM17.4482 3.49817C16.1217 3.49817 14.8496 4.02528 13.9118 4.96346L12.8517 6.02355C12.758 6.11732 12.6308 6.16999 12.4982 6.16999C12.3656 6.16999 12.2384 6.11732 12.1446 6.02355L11.0846 4.96355C9.13149 3.01042 5.96484 3.01042 4.01172 4.96355C2.05859 6.91667 2.05859 10.0833 4.01172 12.0364L12.4982 20.5229L20.9846 12.0364C21.9228 11.0987 22.45 9.82648 22.45 8.49999C22.45 7.17351 21.9229 5.90138 20.9847 4.96363C20.0469 4.02544 18.7747 3.49817 17.4482 3.49817Z" />
+							</svg>
+
+							<span class="favorites__text">Favourites</span>
+						</a>
+						<a href="cart.html" class="controls-header__cart cart">
+							<svg class="cart__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 21C5.5 19.6193 6.61929 18.5 8 18.5C9.38071 18.5 10.5 19.6193 10.5 21C10.5 22.3807 9.38071 23.5 8 23.5C6.61929 23.5 5.5 22.3807 5.5 21ZM8 19.5C7.17157 19.5 6.5 20.1716 6.5 21C6.5 21.8284 7.17157 22.5 8 22.5C8.82843 22.5 9.5 21.8284 9.5 21C9.5 20.1716 8.82843 19.5 8 19.5Z" />
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M17.5 21C17.5 19.6193 18.6193 18.5 20 18.5C21.3807 18.5 22.5 19.6193 22.5 21C22.5 22.3807 21.3807 23.5 20 23.5C18.6193 23.5 17.5 22.3807 17.5 21ZM20 19.5C19.1716 19.5 18.5 20.1716 18.5 21C18.5 21.8284 19.1716 22.5 20 22.5C20.8284 22.5 21.5 21.8284 21.5 21C21.5 20.1716 20.8284 19.5 20 19.5Z" />
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M1 0.5C0.723858 0.5 0.5 0.723858 0.5 1C0.5 1.27614 0.723858 1.5 1 1.5H4.58051C5.33783 5.79147 6.10333 10.0643 6.74931 14.3709C6.93288 15.5947 7.98416 16.5 9.22165 16.5H19.3597C20.5514 16.5 21.5774 15.6588 21.8111 14.4903L23.2503 7.29417C23.436 6.36599 22.726 5.5 21.7795 5.5H7.16046C6.8575 5.5 6.57797 5.58901 6.34436 5.74093L5.49239 0.913107C5.45023 0.674179 5.24262 0.5 5 0.5H1ZM6.666 7.07417C6.62065 6.77187 6.85478 6.5 7.16046 6.5H21.7795C22.095 6.5 22.3316 6.78866 22.2698 7.09806L20.8305 14.2942C20.6903 14.9953 20.0747 15.5 19.3597 15.5H9.22165C8.47916 15.5 7.84839 14.9568 7.73825 14.2225L6.666 7.07417Z" />
+							</svg>
+
+							<span class="cart__text">Cart</span>
+						</a>
+					</div>
+					<a href="user-profile.html" class="header__user user-info">
+						<span class="user-info__name">UserName</span>
+						<div class="user-info__avatar">
+							<img src="img/header/user-avatar.jpg" alt="" />
+						</div>
+					</a>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<aside class="page__cookies cookies">
+				<div class="cookies__container">
+					<div class="cookies__img"><img src="img/cookies-icon.png" alt="Cookies icon" /></div>
+					<h2 class="cookies__title">We use cookies</h2>
+					<div class="cookies__text">
+						Cookies are needed to improve the user experience on the site and
+						provide more relevant content
+					</div>
+					<div class="cookies__buttons">
+						<div class="cookies__button">
+							<p class="cookies__label">Accept</p>
+							<button class="cookies__button-item"><img src="img/ok-icon.png" alt="Ok icon"></button>
+						</div>
+						<div class="cookies__button">
+							<p class="cookies__label">Reject</p>
+							<button class="cookies__button-item"><img src="img/regect-icon.png" alt="Regect icon"></button>
+						</div>
+					</div>
+				</div>
+			</aside>
+			<section class="page__navigation navigation">
+				<div class="navigation__container">
+					<nav data-da=".menu__body,767,1" class="navigation__content">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="category.html" class="menu__link">Video Games</a>
+							</li>
+							<li class="menu__item">
+								<a href="category.html" class="menu__link">Consoles</a>
+							</li>
+							<li class="menu__item">
+								<a href="category.html" class="menu__link">Arcade Machines</a>
+							</li>
+							<li class="menu__item">
+								<a href="category.html" class="menu__link">Merch</a>
+							</li>
+							<li class="menu__item">
+								<a href="category.html" class="menu__link">Accessories</a>
+							</li>
+							<li class="menu__item">
+								<a href="categories.html" class="menu__link">All Categories</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+			<section class="page__intro intro">
+				<div class="intro__background">
+					<img src="https://media1.giphy.com/media/xThuWtNFKZWG6fUFe8/giphy.gif?cid=6c09b95270uwmpi1d4j0ce3eg6koajb899t0ybfupavsfrpu&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" alt="Game Background" />
+				</div>
+				<div class="intro__main-photo">
+					<img src="img/index/intro/logo-big.png" alt="Mail Logo PixelEra" />
+					<h2 class="intro__title">Pixel<br />Era</h2>
+				</div>
+			</section>
+			<section class="page_games-arcade games-arcade main-page-section-sellers">
+				<div class="main-page-section-sellers__container section-container">
+					<div class="main-page-section-sellers__head section-head">
+						<h2 class="section-head__title section-title">
+							Games -<br />Acrade
+						</h2>
+						<a href="top-sellers.html" data-da=".adapt1,767.98,1" class="section-head__sellers-button button-sellers">
+							<p class="button-sellers__text">top sellers</p>
+							<div class="button-sellers__control">
+								<svg class="button-sellers__arrow" width="56" height="44" viewBox="0 0 56 44" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+									<rect y="0.890381" width="56" height="42.7927" fill="url(#pattern0)" />
+									<defs>
+										<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+											<use xlink:href="#image0_555_1998" transform="matrix(0.0666667 0 0 0.0872424 0 -0.154318)" />
+										</pattern>
+										<image id="image0_555_1998" width="15" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAD6ADAAQAAAABAAAADwAAAAAHNtsJAAAAsUlEQVQoFWNgoAAwIuvVNCv+D+NfP9WLIgcTR6aZYByYxt7pyWAhEB8mBlODTsM1gyT0k13B8iAaxsZnCIpmdJMJGYJXM8wwXIawwBQQoo/cNmNgsANiIOA91MoA8g5RNoM1Ipn+2a4azMOwedGZR3Bl6JpgEiCbQQBDMy4NIMUwTSA2KB2gaMalEV0TSDMIoGiGCCFIXJpgKlA0gxSDAoOQJphmlPSLnByJSdswQ8iiAdxkQwRi9haHAAAAAElFTkSuQmCC" />
+									</defs>
+								</svg>
+							</div>
+						</a>
+					</div>
+					<div class="main-page-section-sellers__content section-content">
+						<article class="section-content__item item-section-content">
+							<div class="section-content__inner inner-section-content">
+								<header class="inner-section-content__header">
+									<a href="product-page.html" class="inner-section-content__link">
+										<figure class="inner-section-content__img">
+											<img src="img/index/games-arcade/games-arcade01.png" alt="Pac Man Game" />
+											<figcaption>Pac-Man</figcaption>
+										</figure>
+									</a>
+								</header>
+
+								<a href="search-result.html" class="inner-section-content__company">
+									<h2>Atari</h2>
+								</a>
+								<div class="inner-section-content__price price-inner-section-content">
+									<span class="price-inner-section-content__price-number">40$</span>
+									<div class="price-inner-section-content__img">
+										<img src="img/index/money-img.png" alt="Price Image" />
+									</div>
+								</div>
+								<footer class="inner-section-content__footer">
+									<a href="cart.html" class="inner-section-content__button"><span>Add to cart</span></a>
+								</footer>
+							</div>
+							<div class="item-section-content__bg"></div>
+						</article>
+						<article class="section-content__item item-section-content">
+							<div class="section-content__inner inner-section-content">
+								<header class="inner-section-content__header">
+									<a href="product-page.html" class="inner-section-content__link">
+										<figure class="inner-section-content__img">
+											<img src="img/index/games-arcade/games-arcade02.png" alt="Mad Max Game" />
+											<figcaption>MAD MAX</figcaption>
+										</figure>
+									</a>
+								</header>
+								<a href="search-result.html" class="inner-section-content__company">
+									<h2>Nintendo</h2>
+								</a>
+								<div class="inner-section-content__price price-inner-section-content">
+									<span class="price-inner-section-content__price-number">25$</span>
+									<div class="price-inner-section-content__img">
+										<img src="img/index/money-img.png" alt="Price Image" />
+									</div>
+								</div>
+								<footer class="inner-section-content__footer">
+									<a href="cart.html" class="inner-section-content__button"><span>Add to cart</span></a>
+								</footer>
+							</div>
+							<div class="item-section-content__bg"></div>
+						</article>
+						<article class="section-content__item item-section-content">
+							<div class="section-content__inner inner-section-content">
+								<header class="inner-section-content__header">
+									<a href="product-page.html" class="inner-section-content__link">
+										<figure class="inner-section-content__img">
+											<img src="img/index/games-arcade/games-arcade03.png" alt="Silent Hill Game" />
+											<figcaption>Silent Hill</figcaption>
+										</figure>
+									</a>
+								</header>
+								<a href="search-result.html" class="inner-section-content__company">
+									<h2>SONY</h2>
+								</a>
+								<div class="inner-section-content__price price-inner-section-content">
+									<span class="price-inner-section-content__price-number">119$</span>
+									<div class="price-inner-section-content__img">
+										<img src="img/index/money-img.png" alt="Price Image" />
+									</div>
+								</div>
+								<footer class="inner-section-content__footer">
+									<a href="cart.html" class="inner-section-content__button"><span>Add to cart</span></a>
+								</footer>
+							</div>
+							<div class="item-section-content__bg"></div>
+						</article>
+						<article class="section-content__item item-section-content">
+							<div class="section-content__inner inner-section-content">
+								<header class="inner-section-content__header">
+									<a href="product-page.html" class="inner-section-content__link">
+										<figure class="inner-section-content__img">
+											<img src="img/index/games-arcade/games-arcade04.png" alt="Love Hina Game" />
+											<figcaption>Love hina</figcaption>
+										</figure>
+									</a>
+								</header>
+								<a href="search-result.html" class="inner-section-content__company">
+									<h2>SEGA</h2>
+								</a>
+								<div class="inner-section-content__price price-inner-section-content">
+									<span class="price-inner-section-content__price-number">30$</span>
+									<div class="price-inner-section-content__img">
+										<img src="img/index/money-img.png" alt="Price Image" />
+									</div>
+								</div>
+								<footer class="inner-section-content__footer">
+									<a href="cart.html" class="inner-section-content__button"><span>Add to cart</span></a>
+								</footer>
+							</div>
+							<div class="item-section-content__bg"></div>
+						</article>
+					</div>
+					<div class="main-page-section-sellers__adaptive-move adapt1"></div>
+				</div>
+			</section>
+			<section class="page_console console main-page-section-sellers">
+				<div class="main-page-section-sellers__container section-container">
+					<div class="main-page-section-sellers__head section-head">
+						<h2 class="section-head__title section-title">Console</h2>
+						<a href="top-sellers.html" data-da=".adapt2,767.98,1" class="section-head__sellers-button button-sellers">
+							<p class="button-sellers__text">top sellers</p>
+							<div class="button-sellers__control">
+								<svg class="button-sellers__arrow" width="56" height="44" viewBox="0 0 56 44" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+									<rect y="0.890381" width="56" height="42.7927" fill="url(#pattern0)" />
+									<defs>
+										<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+											<use xlink:href="#image0_555_1998" transform="matrix(0.0666667 0 0 0.0872424 0 -0.154318)" />
+										</pattern>
+										<image id="image0_555_1998" width="15" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAD6ADAAQAAAABAAAADwAAAAAHNtsJAAAAsUlEQVQoFWNgoAAwIuvVNCv+D+NfP9WLIgcTR6aZYByYxt7pyWAhEB8mBlODTsM1gyT0k13B8iAaxsZnCIpmdJMJGYJXM8wwXIawwBQQoo/cNmNgsANiIOA91MoA8g5RNoM1Ipn+2a4azMOwedGZR3Bl6JpgEiCbQQBDMy4NIMUwTSA2KB2gaMalEV0TSDMIoGiGCCFIXJpgKlA0gxSDAoOQJphmlPSLnByJSdswQ8iiAdxkQwRi9haHAAAAAElFTkSuQmCC" />
+									</defs>
+								</svg>
+							</div>
+						</a>
+					</div>
+					<div class="main-page-section-sellers__content section-content">
+						<article class="section-content__item item-section-content">
+							<div class="section-content__inner inner-section-content">
+								<header class="inner-section-content__header">
+									<a href="product-page.html" class="inner-section-content__link">
+										<figure class="inner-section-content__img">
+											<img src="img/index/consoles/consoles01.png" alt="Dreamcast Console" />
+											<figcaption>Dreamcast</figcaption>
+										</figure>
+									</a>
+								</header>
+								<a href="search-result.html" class="inner-section-content__company">
+									<h2>Japon-Sega</h2>
+								</a>
+								<div class="inner-section-content__price price-inner-section-content">
+									<span class="price-inner-section-content__price-number">200$</span>
+									<div class="price-inner-section-content__img">
+										<img src="img/index/money-img.png" alt="Price Image" />
+									</div>
+								</div>
+								<footer class="inner-section-content__footer">
+									<a href="cart.html" class="inner-section-content__button"><span>Add to cart</span></a>
+								</footer>
+							</div>
+							<div class="item-section-content__bg"></div>
+						</article>
+						<article class="section-content__item item-section-content">
+							<div class="section-content__inner inner-section-content">
+								<header class="inner-section-content__header">
+									<a href="product-page.html" class="inner-section-content__link">
+										<figure class="inner-section-content__img">
+											<img src="img/index/consoles/consoles02.jpg" alt="Megadrive Console" />
+											<figcaption>Megadrive</figcaption>
+										</figure>
+									</a>
+								</header>
+								<a href="search-result.html" class="inner-section-content__company">
+									<h2>Pal-Sega</h2>
+								</a>
+								<div class="inner-section-content__price price-inner-section-content">
+									<span class="price-inner-section-content__price-number">99$</span>
+									<div class="price-inner-section-content__img">
+										<img src="img/index/money-img.png" alt="Price Image" />
+									</div>
+								</div>
+								<footer class="inner-section-content__footer">
+									<a href="cart.html" class="inner-section-content__button"><span>Add to cart</span></a>
+								</footer>
+							</div>
+							<div class="item-section-content__bg"></div>
+						</article>
+						<article class="section-content__item item-section-content">
+							<div class="section-content__inner inner-section-content">
+								<header class="inner-section-content__header">
+									<a href="product-page.html" class="inner-section-content__link">
+										<figure class="inner-section-content__img">
+											<img src="img/index/consoles/consoles03.png" alt="GAME BOY Console" />
+											<figcaption>GAME BOY</figcaption>
+										</figure>
+									</a>
+								</header>
+								<a href="search-result.html" class="inner-section-content__company">
+									<h2>Pal - Nintendo</h2>
+								</a>
+								<div class="inner-section-content__price price-inner-section-content">
+									<span class="price-inner-section-content__price-number">89$</span>
+									<div class="price-inner-section-content__img">
+										<img src="img/index/money-img.png" alt="Price Image" />
+									</div>
+								</div>
+								<footer class="inner-section-content__footer">
+									<a href="cart.html" class="inner-section-content__button"><span>Add to cart</span></a>
+								</footer>
+							</div>
+							<div class="item-section-content__bg"></div>
+						</article>
+						<article class="section-content__item item-section-content">
+							<div class="section-content__inner inner-section-content">
+								<header class="inner-section-content__header">
+									<a href="product-page.html" class="inner-section-content__link">
+										<figure class="inner-section-content__img">
+											<img src="img/index/consoles/consoles04.png" alt="3DS Console" />
+											<figcaption>3DS</figcaption>
+										</figure>
+									</a>
+								</header>
+								<a href="search-result.html" class="inner-section-content__company">
+									<h2>Pal- Nintendo</h2>
+								</a>
+								<div class="inner-section-content__price price-inner-section-content">
+									<span class="price-inner-section-content__price-number">99$</span>
+									<div class="price-inner-section-content__img">
+										<img src="img/index/money-img.png" alt="Price Image" />
+									</div>
+								</div>
+								<footer class="inner-section-content__footer">
+									<a href="cart.html" class="inner-section-content__button"><span>Add to cart</span></a>
+								</footer>
+							</div>
+							<div class="item-section-content__bg"></div>
+						</article>
+					</div>
+					<div class="main-page-section-sellers__adaptive-move adapt2"></div>
+				</div>
+			</section>
+			<section class="page_arcade-machine arcade-machine main-page-section-sellers">
+				<div class="main-page-section-sellers__container section-container">
+					<div class="main-page-section-sellers__head section-head">
+						<h2 class="section-head__title section-title">
+							Arcade -<br />Machine
+						</h2>
+						<a href="top-sellers.html" data-da=".adapt3,767.98,1" class="section-head__sellers-button button-sellers">
+							<p class="button-sellers__text">top sellers</p>
+							<div class="button-sellers__control">
+								<svg class="button-sellers__arrow" width="56" height="44" viewBox="0 0 56 44" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+									<rect y="0.890381" width="56" height="42.7927" fill="url(#pattern0)" />
+									<defs>
+										<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+											<use xlink:href="#image0_555_1998" transform="matrix(0.0666667 0 0 0.0872424 0 -0.154318)" />
+										</pattern>
+										<image id="image0_555_1998" width="15" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAD6ADAAQAAAABAAAADwAAAAAHNtsJAAAAsUlEQVQoFWNgoAAwIuvVNCv+D+NfP9WLIgcTR6aZYByYxt7pyWAhEB8mBlODTsM1gyT0k13B8iAaxsZnCIpmdJMJGYJXM8wwXIawwBQQoo/cNmNgsANiIOA91MoA8g5RNoM1Ipn+2a4azMOwedGZR3Bl6JpgEiCbQQBDMy4NIMUwTSA2KB2gaMalEV0TSDMIoGiGCCFIXJpgKlA0gxSDAoOQJphmlPSLnByJSdswQ8iiAdxkQwRi9haHAAAAAElFTkSuQmCC" />
+									</defs>
+								</svg>
+							</div>
+						</a>
+					</div>
+					<div class="main-page-section-sellers__content section-content">
+						<article class="section-content__item item-section-content">
+							<div class="section-content__inner inner-section-content">
+								<header class="inner-section-content__header">
+									<a href="product-page.html" class="inner-section-content__link">
+										<figure class="inner-section-content__img">
+											<img src="img/index/arcade-machine/arcade-machine01.png" alt="PAC-MAN Arcade Machine" />
+											<figcaption>PAC-MAN</figcaption>
+										</figure>
+									</a>
+								</header>
+								<a href="search-result.html" class="inner-section-content__company">
+									<h2>Atari</h2>
+								</a>
+								<div class="inner-section-content__price price-inner-section-content">
+									<span class="price-inner-section-content__price-number">110$</span>
+									<div class="price-inner-section-content__img">
+										<img src="img/index/money-img.png" alt="Price Image" />
+									</div>
+								</div>
+								<footer class="inner-section-content__footer">
+									<a href="cart.html" class="inner-section-content__button"><span>Add to cart</span></a>
+								</footer>
+							</div>
+							<div class="item-section-content__bg"></div>
+						</article>
+						<article class="section-content__item item-section-content">
+							<div class="section-content__inner inner-section-content">
+								<header class="inner-section-content__header">
+									<a href="product-page.html" class="inner-section-content__link">
+										<figure class="inner-section-content__img">
+											<img src="img/index/arcade-machine/arcade-machine02.png" alt="ASTEROIDS Arcade Machine" />
+											<figcaption>ASTEROIDS</figcaption>
+										</figure>
+									</a>
+								</header>
+								<a href="search-result.html" class="inner-section-content__company">
+									<h2>Atari</h2>
+								</a>
+								<div class="inner-section-content__price price-inner-section-content">
+									<span class="price-inner-section-content__price-number">120$</span>
+									<div class="price-inner-section-content__img">
+										<img src="img/index/money-img.png" alt="Price Image" />
+									</div>
+								</div>
+								<footer class="inner-section-content__footer">
+									<a href="cart.html" class="inner-section-content__button"><span>Add to cart</span></a>
+								</footer>
+							</div>
+							<div class="item-section-content__bg"></div>
+						</article>
+						<article class="section-content__item item-section-content">
+							<div class="section-content__inner inner-section-content">
+								<header class="inner-section-content__header">
+									<a href="product-page.html" class="inner-section-content__link">
+										<figure class="inner-section-content__img">
+											<img src="img/index/arcade-machine/arcade-machine03.png" alt="NBA-JAM Arcade Machine" />
+											<figcaption>NBA-JAM</figcaption>
+										</figure>
+									</a>
+								</header>
+								<a href="search-result.html" class="inner-section-content__company">
+									<h2>Atari</h2>
+								</a>
+								<div class="inner-section-content__price price-inner-section-content">
+									<span class="price-inner-section-content__price-number">140$</span>
+									<div class="price-inner-section-content__img">
+										<img src="img/index/money-img.png" alt="Price Image" />
+									</div>
+								</div>
+								<footer class="inner-section-content__footer">
+									<a href="cart.html" class="inner-section-content__button"><span>Add to cart</span></a>
+								</footer>
+							</div>
+							<div class="item-section-content__bg"></div>
+						</article>
+						<article class="section-content__item item-section-content">
+							<div class="section-content__inner inner-section-content">
+								<header class="inner-section-content__header">
+									<a href="product-page.html" class="inner-section-content__link">
+										<figure class="inner-section-content__img">
+											<img src="img/index/arcade-machine/arcade-machine04.png" alt="Mortal Combat Arcade Machine" />
+											<figcaption>Mortal Combat</figcaption>
+										</figure>
+									</a>
+								</header>
+								<a href="search-result.html" class="inner-section-content__company">
+									<h2>Atari</h2>
+								</a>
+								<div class="inner-section-content__price price-inner-section-content">
+									<span class="price-inner-section-content__price-number">125$</span>
+									<div class="price-inner-section-content__img">
+										<img src="img/index/money-img.png" alt="Price Image" />
+									</div>
+								</div>
+								<footer class="inner-section-content__footer">
+									<a href="cart.html" class="inner-section-content__button"><span>Add to cart</span></a>
+								</footer>
+							</div>
+							<div class="item-section-content__bg"></div>
+						</article>
+					</div>
+					<div class="main-page-section-sellers__adaptive-move adapt3"></div>
+				</div>
+			</section>
+			<section class="page__news news main-page-section-sellers">
+				<div class="news__container main-page-section-sellers__container">
+					<div class="main-page-section-sellers__head section-head">
+						<h2 class="section-head__title section-title">News</h2>
+						<a href="all-news.html" data-da=".adapt4,767.98,1" class="section-head__sellers-button button-sellers">
+							<p class="button-sellers__text">all news</p>
+							<div class="button-sellers__control">
+								<svg class="button-sellers__arrow" width="56" height="44" viewBox="0 0 56 44" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+									<rect y="0.890381" width="56" height="42.7927" fill="url(#pattern0)" />
+									<defs>
+										<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+											<use xlink:href="#image0_555_1998" transform="matrix(0.0666667 0 0 0.0872424 0 -0.154318)" />
+										</pattern>
+										<image id="image0_555_1998" width="15" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAD6ADAAQAAAABAAAADwAAAAAHNtsJAAAAsUlEQVQoFWNgoAAwIuvVNCv+D+NfP9WLIgcTR6aZYByYxt7pyWAhEB8mBlODTsM1gyT0k13B8iAaxsZnCIpmdJMJGYJXM8wwXIawwBQQoo/cNmNgsANiIOA91MoA8g5RNoM1Ipn+2a4azMOwedGZR3Bl6JpgEiCbQQBDMy4NIMUwTSA2KB2gaMalEV0TSDMIoGiGCCFIXJpgKlA0gxSDAoOQJphmlPSLnByJSdswQ8iiAdxkQwRi9haHAAAAAElFTkSuQmCC" />
+									</defs>
+								</svg>
+							</div>
+						</a>
+					</div>
+					<div class="news__content">
+						<article class="news__item item-news">
+							<a href="news.html" class="item-news__content">
+								<div class="item-news__bg"></div>
+								<div class="item-news__img">
+									<img src="img/index/news/news01.png" alt="Geek Fest Image" />
+								</div>
+								<div class="item-news__info info-item-news">
+									<header class="info-item-news__title">
+										<span>Geek Fest</span><span>(23.11.2023)</span>
+									</header>
+									<p class="info-item-news__text">
+										Geek Fest - immersion in the world of 8-bit wonders! Open
+										the door to time and go back to an era when games were
+										simple but addictive. At this event you will find
+										countless retro games, tournaments, 8-bit cosplay and fun
+										competitions. Feel the nostalgia and meet like-minded
+										people to celebrate the golden era of video games!
+									</p>
+								</div>
+							</a>
+							<footer class="inner-section-content__footer">
+								<a href="news.html" class="info-item-news__button inner-section-content__button">
+									<span>Detail</span>
+								</a>
+							</footer>
+						</article>
+						<article class="news__item item-news">
+							<a href="news.html" class="item-news__content">
+								<div class="item-news__bg"></div>
+								<div class="item-news__img">
+									<img src="img/index/news/news02.png" alt="LEGO Art Festival Image" />
+								</div>
+								<div class="item-news__info info-item-news">
+									<header class="info-item-news__title">
+										<span>LEGO Art Festival</span><span>(02.12.2023)</span>
+									</header>
+									<p class="info-item-news__text">
+										LEGO Art Festival - the magic of bricks! Immerse yourself
+										in a wonderful world of creativity where LEGO becomes art.
+										At this festival you will find magnificent structures, see
+										works of art created from thousands of bricks, and even
+										take part in workshops on building your own masterpieces.
+										For lovers of all ages, this is an event that will awaken
+										your imagination and inspire you to create your own
+										creations!
+									</p>
+								</div>
+							</a>
+							<footer class="inner-section-content__footer">
+								<a href="news.html" class="info-item-news__button inner-section-content__button">
+									<span>Detail</span>
+								</a>
+							</footer>
+						</article>
+						<article class="news__item item-news">
+							<a href="news.html" class="item-news__content">
+								<div class="item-news__bg"></div>
+								<div class="item-news__img">
+									<img src="img/index/news/news03.png" alt="Arcade Game Competition Image" />
+								</div>
+								<div class="item-news__info info-item-news">
+									<header class="info-item-news__title">
+										<span>Arcade Game Competition</span><span>(24.01.2024)</span>
+									</header>
+									<p class="info-item-news__text">
+										Get ready for battle in the world of arcade games! Our
+										upcoming tournament promises a lot of fun and competition.
+										Compete in classic and modern arcade games, prove your
+										skills and earn glory. Competitions for all levels of
+										players - from beginners to veterans. Are you ready to
+										become a champion?
+									</p>
+								</div>
+							</a>
+							<footer class="inner-section-content__footer">
+								<a href="news.html" class="info-item-news__button inner-section-content__button">
+									<span>Detail</span>
+								</a>
+							</footer>
+						</article>
+					</div>
+					<div class="main-page-section-sellers__adaptive-move adapt4"></div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__content">
+					<div class="footer__column main-column">
+						<a href="index.html">
+							<div class="footer__logo">
+								<img src="img/footer/logo.png" alt="Logo PixelEra" />
+							</div>
+						</a>
+						<a href="index.html">
+							<h2 class="footer__title">PixelEra</h2>
+						</a>
+					</div>
+					<div class="footer__column">
+						<a href="about-us.html" class="footer__item"><span>></span>About us</a>
+						<a href="about-us.html" class="footer__item"><span>></span>Partnership</a>
+						<a href="about-us.html" class="footer__item"><span>></span>Privacy policy</a>
+					</div>
+					<div class="footer__column">
+						<a href="about-us.html" class="footer__item"><span>></span>Help Center</a>
+						<a href="about-us.html" class="footer__item"><span>></span>Buyer protection</a>
+						<a href="about-us.html" class="footer__item"><span>></span>Download our App</a>
+					</div>
+					<div class="footer__column contacts">
+						<h3 class="contacts__title">Our contacts:</h3>
+						<div class="contacts__media">
+							<a href="#" class="contacts__link media-link"><img src="img/footer/instagram.png" alt="Instagram icon" /></a>
+							<a href="#" class="contacts__link media-link"><img src="img/footer/facebook.png" alt="Facebook icon" /></a>
+						</div>
+						<a href="tel:+42088005553535" class="contacts__phone company-info"><svg class="contacts__icon" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" style="
+              shape-rendering: geometricPrecision;
+              text-rendering: geometricPrecision;
+              image-rendering: optimizeQuality;
+            " fill-rule="evenodd" xml:space="preserve" clip-rule="evenodd" viewBox="0 0 58.282 58.282">
+								<g id="Layer_x0020_1">
+									<g id="_152222920">
+										<path id="_152222248" class="fil0" d="m24.186 22.5c-5.4466 3.1445 2.8637 18.724 8.8237 15.283 1.0584 1.8332 4.4676 7.7381 5.526 9.5712-2.5146 1.4519-4.6432 2.3671-7.5585 0.70054-8.0946-4.6273-17.005-20.054-16.751-29.256 0.088046-3.196 1.971-4.4482 4.434-5.8702 1.0584 1.8332 4.4676 7.738 5.526 9.5712z" />
+										<path id="_150519168" class="fil0" d="m26.47 22.24c-0.58849 0.33978-1.3458 0.13697-1.6856-0.45158l-5.2095-9.0232c-0.33984-0.58862-0.13704-1.3459 0.45152-1.6857l2.738-1.5808c0.58855-0.33984 1.346-0.13685 1.6858 0.4517l5.2095 9.0231c0.33978 0.58849 0.13691 1.3458-0.45158 1.6856l-2.738 1.5808z" />
+										<path id="_226148072" class="fil0" d="m40.702 46.89c-0.58849 0.33978-1.3458 0.13697-1.6856-0.45164l-5.2095-9.0232c-0.33984-0.58855-0.13704-1.3459 0.45152-1.6856l2.738-1.5808c0.58855-0.33978 1.346-0.13679 1.6858 0.4517l5.2095 9.0231c0.33978 0.58855 0.13691 1.3459-0.45158 1.6856l-2.738 1.5808z" />
+									</g>
+									<path class="fil1" d="m29.141-2.845e-15h0.0004319v0.006787c8.05 0.0001234 15.335 3.26 20.604 8.5296 5.2693 5.2693 8.5291 12.554 8.5293 20.604h0.006787v0.0013574h-0.006787c-0.0001234 8.05-3.26 15.335-8.5296 20.604-5.2694 5.2693-12.554 8.5291-20.604 8.5293v0.006787h-0.0013574v-0.006787c-8.05-0.0001234-15.335-3.26-20.604-8.5296-5.2693-5.2694-8.5291-12.554-8.5293-20.604h-0.006787v-0.0013574h0.006787c0.0001234-8.05 3.26-15.335 8.5296-20.604 5.2693-5.2693 12.554-8.5291 20.604-8.5293v-0.006787h0.0009255zm0.0004319 3.4758v0.006787h-0.0013574v-0.006787c-7.0792 0.0001851-13.494 2.8753-18.141 7.5226-4.6477 4.6476-7.5229 11.063-7.5229 18.142h0.006787v0.0013574h-0.006787c0.0001851 7.0792 2.8753 13.494 7.5226 18.141 4.6476 4.6477 11.063 7.5229 18.142 7.5229v-0.006787h0.0013574v0.006787c7.0792-0.0001851 13.494-2.8753 18.141-7.5226 4.6477-4.6476 7.5229-11.063 7.5229-18.142h-0.006787v-0.0013574h0.006787c-0.0001851-7.0792-2.8753-13.494-7.5226-18.141-4.6476-4.6477-11.063-7.5229-18.142-7.5229z" />
+								</g>
+							</svg>
+							<span>+42088005553535</span>
+						</a>
+						<a href="mailto:pixelera@gmail.com" class="contacts__mail company-info"><svg class="contacts__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z" />
+							</svg>
+							<span>pixelera@gmail.com</span>
+						</a>
+					</div>
+				</div>
+				<div class="footer__container">
+					<p class="footer__license">
+						This project is developed by students and is intended for educational
+						purposes only. It is not an official product or service and does not
+						imply any commercial activity. The project was created as part of an
+						educational program and aims to demonstrate the skills and knowledge of
+						students. Content and information may be limited to educational purposes
+						and are not responsible for any actual events or situations. For
+						official information, please contact competent organizations and
+						sources.
+					</p>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20240113194809"></script>
+</body>
+
+</html>
